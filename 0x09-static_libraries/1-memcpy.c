@@ -3,8 +3,9 @@
 #include <stdlib.h>
 #include <ctype.h>
 #include <string.h>
-char *_strcpy(char *dest, char *src)
+
+char *_memcpy(char *dest, char *src, unsigned int n)
 {
-	return (strcpy(dest, src));
+	return (memcpy(dest, src, n));
 }
 

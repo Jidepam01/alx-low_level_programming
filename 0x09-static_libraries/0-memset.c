@@ -3,8 +3,9 @@
 #include <stdlib.h>
 #include <ctype.h>
 #include <string.h>
-char *_strcpy(char *dest, char *src)
+
+char *_memset(char *s, char b, unsigned int n)
 {
-	return (strcpy(dest, src));
+	return (memset(s, b, n));
 }
 

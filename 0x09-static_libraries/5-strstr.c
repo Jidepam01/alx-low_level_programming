@@ -3,8 +3,9 @@
 #include <stdlib.h>
 #include <ctype.h>
 #include <string.h>
-char *_strcpy(char *dest, char *src)
+
+char *_strstr(char *haystack, char *needle)
 {
-	return (strcpy(dest, src));
+	return (strstr(haystack, needle));
 }
 
