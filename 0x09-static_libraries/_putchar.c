@@ -4,8 +4,8 @@
 #include <ctype.h>
 #include <string.h>
 
-int _isdigit(int c)
+int _putchar(char c);
 {
-	return (isdigit(c));
+	return	(putchar(c));
 }
 
