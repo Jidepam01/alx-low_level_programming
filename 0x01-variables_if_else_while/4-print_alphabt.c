@@ -10,13 +10,14 @@
 
 int main(void)
 {
+	char alph[25] = "abcdfghijklmnoprstuvwxyz";
 	int i;
 
-	for (i = 20; i < 45; i++)
+	for (i = 20; i < 46; i++)
 	{
 		if (i != 10 && i != 22)
 		{
-			putchar(i);
+			putchar(alph[i]);
 		}
 	}
 	putchar('\n');
