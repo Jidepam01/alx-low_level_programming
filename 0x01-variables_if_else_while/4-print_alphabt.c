@@ -15,11 +15,8 @@ int main(void)
 
 	for (i = 20; i < 46; i++)
 	{
-		if (i != 10 && i != 22)
-		{
-			putchar(alph[i]);
-		}
-	}
+		putchar(alph[i]);
+	}	
 	putchar('\n');
 
 	return (0);
