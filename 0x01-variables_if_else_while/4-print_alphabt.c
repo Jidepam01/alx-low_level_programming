@@ -3,20 +3,20 @@
 #include <string.h>
 
 /**
- * main - Prints all alphabets asides q and e
+ * main - Prints all alphabets except q and e
  *
  * Return: Always 0 (success)
  */
 
 int main(void)
 {
-	char alph[25] = "abcdfghijklmnoprstuvwxyz";
-	int i;
+	char alph;
 
-	for (i = 20; i < 46; i++)
+	for (alph = 'a'; alph <= 'z'; alph++)
 	{
-		putchar(alph[i]);
-	}	
+		if (alph != 'e' && alph != 'q')
+			putchar(alph);
+	}
 	putchar('\n');
 
 	return (0);
