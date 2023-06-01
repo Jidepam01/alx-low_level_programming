@@ -1,6 +1,6 @@
 /**
  * string_toupper - a function that changes all lowercase to uppercase letters
- * @str: string letter
+ * @str: pointer var
  * Return: pointer to uppercase
  */
 
