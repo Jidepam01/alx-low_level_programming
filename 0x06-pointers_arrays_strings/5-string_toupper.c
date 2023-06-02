@@ -1,6 +1,6 @@
 /**
  * string_toupper - a function that changes all lowercase to uppercase letters
- * @str: pointer var
+ * @str: string letters
  * Return: pointer to uppercase
  */
 
@@ -10,7 +10,7 @@ char *string_toupper(char *str)
 
 	while (*ptr != '\0')
 	{
-		if (*ptr >= 'a' && *ptr <= 'A')
+		if (*ptr >= 'a' && *ptr <= 'z')
 		{
 			*ptr = *ptr - ('a' - 'A');
 		}
